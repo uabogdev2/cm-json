@@ -1,0 +1,327 @@
+# team_titles
+team_titles|la sélection du Brésil en Coupe du Monde|5
+team_titles|la sélection d'Allemagne en Coupe du Monde|4
+team_titles|la sélection d'Italie en Coupe du Monde|4
+team_titles|la sélection d'Argentine en Coupe du Monde|3
+team_titles|la sélection d'Uruguay en Coupe du Monde|2
+team_titles|la sélection de France en Coupe du Monde|2
+team_titles|la sélection d'Angleterre en Coupe du Monde|1
+team_titles|la sélection d'Espagne en Coupe du Monde|1
+team_titles|le Real Madrid en Ligue des champions|14
+team_titles|le FC Barcelone en Ligue des champions|5
+team_titles|le Bayern Munich en Ligue des champions|6
+team_titles|l'AC Milan en Ligue des champions|7
+team_titles|Liverpool FC en Ligue des champions|6
+team_titles|Manchester United en Ligue des champions|3
+team_titles|Chelsea FC en Ligue des champions|2
+team_titles|Nottingham Forest en Coupe des clubs champions|2
+team_titles|l'Ajax Amsterdam en Coupe des clubs champions|4
+team_titles|le Benfica Lisbonne en Coupe des clubs champions|2
+team_titles|le FC Porto en Ligue des champions|2
+team_titles|l'Olympique de Marseille en Ligue des champions|1
+team_titles|le Paris Saint-Germain en Ligue des champions|0
+team_titles|les Los Angeles Lakers en NBA|17
+team_titles|les Boston Celtics en NBA|17
+team_titles|les Golden State Warriors en NBA|7
+team_titles|les Chicago Bulls en NBA|6
+team_titles|les San Antonio Spurs en NBA|5
+team_titles|les Detroit Pistons en NBA|3
+team_titles|les Miami Heat en NBA|3
+team_titles|les Houston Rockets en NBA|2
+team_titles|les New York Knicks en NBA|2
+team_titles|les Philadelphia 76ers en NBA|3
+team_titles|les Toronto Raptors en NBA|1
+team_titles|les Milwaukee Bucks en NBA|2
+team_titles|les Dallas Mavericks en NBA|1
+team_titles|les Cleveland Cavaliers en NBA|1
+team_titles|les Denver Nuggets en NBA|1
+team_titles|les Seattle Seahawks au Super Bowl|1
+team_titles|les New England Patriots au Super Bowl|6
+team_titles|les Pittsburgh Steelers au Super Bowl|6
+team_titles|les Dallas Cowboys au Super Bowl|5
+team_titles|les San Francisco 49ers au Super Bowl|5
+team_titles|les Green Bay Packers au Super Bowl|4
+team_titles|les New York Giants au Super Bowl|4
+team_titles|les Washington Commanders au Super Bowl|3
+team_titles|les Los Angeles Raiders au Super Bowl|3
+team_titles|les Denver Broncos au Super Bowl|3
+team_titles|les Tampa Bay Buccaneers au Super Bowl|2
+team_titles|les Kansas City Chiefs au Super Bowl|3
+team_titles|les Los Angeles Rams au Super Bowl|2
+team_titles|les Chicago Bears au Super Bowl|1
+team_titles|les New York Jets au Super Bowl|1
+team_titles|les New Orleans Saints au Super Bowl|1
+team_titles|les Indianapolis Colts au Super Bowl|2
+team_titles|les Baltimore Ravens au Super Bowl|2
+team_titles|les Philadelphia Eagles au Super Bowl|1
+team_titles|les St. Louis Cardinals en World Series|11
+team_titles|les New York Yankees en World Series|27
+team_titles|les Boston Red Sox en World Series|9
+team_titles|les Los Angeles Dodgers en World Series|7
+team_titles|les San Francisco Giants en World Series|8
+team_titles|les Atlanta Braves en World Series|4
+team_titles|les Houston Astros en World Series|2
+team_titles|les Chicago Cubs en World Series|3
+team_titles|les Montréal Canadiens en Coupe Stanley|24
+team_titles|les Maple Leafs de Toronto en Coupe Stanley|13
+team_titles|les Red Wings de Detroit en Coupe Stanley|11
+team_titles|les Bruins de Boston en Coupe Stanley|6
+team_titles|les Blackhawks de Chicago en Coupe Stanley|6
+team_titles|les Oilers d'Edmonton en Coupe Stanley|5
+team_titles|les Penguins de Pittsburgh en Coupe Stanley|5
+team_titles|les Islanders de New York en Coupe Stanley|4
+team_titles|le Stade Toulousain en Top 14|22
+team_titles|le RC Toulon en Top 14|4
+team_titles|le Leicester Tigers en Premiership|11
+team_titles|les Crusaders en Super Rugby|12
+team_titles|l'équipe de Nouvelle-Zélande en Coupe du Monde de rugby|3
+team_titles|l'équipe d'Afrique du Sud en Coupe du Monde de rugby|4
+team_titles|l'équipe d'Australie en Coupe du Monde de rugby|2
+team_titles|l'équipe d'Angleterre en Coupe du Monde de rugby|1
+team_titles|Serena Williams en Grand Chelem simple|23
+team_titles|Steffi Graf en Grand Chelem simple|22
+team_titles|Rafael Nadal en titres du Grand Chelem|22
+team_titles|Novak Djokovic en titres du Grand Chelem|24
+team_titles|Roger Federer en titres du Grand Chelem|20
+team_titles|Margaret Court en titres du Grand Chelem|24
+team_titles|Chris Evert en titres du Grand Chelem|18
+team_titles|Martina Navrátilová en titres du Grand Chelem|18
+team_titles|Pete Sampras en titres du Grand Chelem|14
+team_titles|Björn Borg en titres du Grand Chelem|11
+team_titles|Andre Agassi en titres du Grand Chelem|8
+team_titles|Justine Henin en titres du Grand Chelem|7
+team_titles|Billie Jean King en titres du Grand Chelem|12
+team_titles|Monica Seles en titres du Grand Chelem|9
+team_titles|Venus Williams en titres du Grand Chelem|7
+team_titles|Ashleigh Barty en titres du Grand Chelem|3
+team_titles|Iga Świątek en titres du Grand Chelem|4
+team_titles|Carlos Alcaraz en titres du Grand Chelem|2
+team_titles|Naomi Osaka en titres du Grand Chelem|4
+team_titles|Max Verstappen en titres de champion du monde de F1|3
+team_titles|Lewis Hamilton en titres de champion du monde de F1|7
+team_titles|Michael Schumacher en titres de champion du monde de F1|7
+team_titles|Sebastian Vettel en titres de champion du monde de F1|4
+team_titles|Fernando Alonso en titres de champion du monde de F1|2
+team_titles|Ayrton Senna en titres de champion du monde de F1|3
+team_titles|Niki Lauda en titres de champion du monde de F1|3
+team_titles|Nelson Piquet en titres de champion du monde de F1|3
+team_titles|Jackie Stewart en titres de champion du monde de F1|3
+team_titles|Emerson Fittipaldi en titres de champion du monde de F1|2
+team_titles|Alain Prost en titres de champion du monde de F1|4
+team_titles|Kimi Räikkönen en titres de champion du monde de F1|1
+team_titles|Jenson Button en titres de champion du monde de F1|1
+team_titles|Damon Hill en titres de champion du monde de F1|1
+team_titles|Nico Rosberg en titres de champion du monde de F1|1
+team_titles|Mika Häkkinen en titres de champion du monde de F1|2
+team_titles|l'équipe Ferrari en titres constructeurs F1|16
+team_titles|l'équipe Williams en titres constructeurs F1|9
+team_titles|l'équipe McLaren en titres constructeurs F1|8
+team_titles|l'équipe Mercedes en titres constructeurs F1|8
+team_titles|l'équipe Red Bull Racing en titres constructeurs F1|5
+team_titles|l'équipe Lotus en titres constructeurs F1|7
+team_titles|l'équipe Cooper en titres constructeurs F1|2
+team_titles|l'équipe Brabham en titres constructeurs F1|4
+team_titles|Miguel Indurain en Tours de France gagnés|5
+team_titles|Bernard Hinault en Tours de France gagnés|5
+team_titles|Eddy Merckx en Tours de France gagnés|5
+team_titles|Chris Froome en Tours de France gagnés|4
+team_titles|Tadej Pogačar en Tours de France gagnés|2
+team_titles|Jonas Vingegaard en Tours de France gagnés|2
+team_titles|Geraint Thomas en Tours de France gagnés|1
+team_titles|Vincenzo Nibali en Tours de France gagnés|1
+team_titles|Cadel Evans en Tours de France gagnés|1
+# player_stat
+player_stat|Lionel Messi en Ballons d'Or remportés|8
+player_stat|Cristiano Ronaldo en Ballons d'Or remportés|5
+player_stat|Michel Platini en Ballons d'Or remportés|3
+player_stat|Johan Cruyff en Ballons d'Or remportés|3
+player_stat|Marco van Basten en Ballons d'Or remportés|3
+player_stat|Franz Beckenbauer en Ballons d'Or remportés|2
+player_stat|Kevin Keegan en Ballons d'Or remportés|2
+player_stat|Ronaldo Nazário en Ballons d'Or remportés|2
+player_stat|Ronaldinho en Ballons d'Or remportés|1
+player_stat|George Best en Ballons d'Or remportés|1
+player_stat|Luka Modrić en Ballons d'Or remportés|1
+player_stat|Karim Benzema en Ballons d'Or remportés|1
+player_stat|Zinédine Zidane en Ballons d'Or remportés|1
+player_stat|Stanley Matthews en Ballons d'Or remportés|1
+player_stat|Andriy Shevchenko en Ballons d'Or remportés|1
+player_stat|Hristo Stoïchkov en Ballons d'Or remportés|1
+player_stat|Luis Suárez Miramontes en Ballons d'Or remportés|1
+player_stat|Oleg Blokhine en Ballons d'Or remportés|1
+player_stat|Matthias Sammer en Ballons d'Or remportés|1
+player_stat|Pavel Nedvěd en Ballons d'Or remportés|1
+player_stat|Usain Bolt en titres mondiaux individuels|11
+player_stat|Michael Phelps en médailles d'or olympiques|23
+player_stat|Katie Ledecky en titres olympiques individuels|7
+player_stat|Simone Biles en titres mondiaux|25
+player_stat|Larisa Latynina en médailles olympiques totales|18
+player_stat|Paavo Nurmi en médailles d'or olympiques|9
+player_stat|Carl Lewis en médailles d'or olympiques|9
+player_stat|Jesse Owens en médailles d'or olympiques|4
+player_stat|Mark Spitz en médailles d'or olympiques|9
+player_stat|Ian Thorpe en médailles d'or olympiques|5
+player_stat|Nadia Comăneci en médailles d'or olympiques|5
+player_stat|Allyson Felix en médailles olympiques|11
+player_stat|Chris Hoy en titres olympiques|6
+player_stat|Bradley Wiggins en médailles olympiques|8
+player_stat|Andy Murray en titres olympiques en simple|2
+player_stat|Novak Djokovic en médailles olympiques en simple|1
+player_stat|Rafael Nadal en médailles d'or olympiques en simple|1
+player_stat|Roger Federer en médailles d'or olympiques en double|1
+player_stat|Stephen Curry en titres NBA|4
+player_stat|Kobe Bryant en titres NBA|5
+player_stat|Shaquille O'Neal en titres NBA|4
+player_stat|Magic Johnson en titres NBA|5
+player_stat|Larry Bird en titres NBA|3
+player_stat|Tim Duncan en titres NBA|5
+player_stat|Hakeem Olajuwon en titres NBA|2
+player_stat|Dirk Nowitzki en titres NBA|1
+player_stat|Giannis Antetokounmpo en titres NBA|1
+player_stat|Nikola Jokić en titres NBA|1
+player_stat|LeBron James en titres NBA|4
+player_stat|Dwyane Wade en titres NBA|3
+player_stat|Tony Parker en titres NBA|4
+player_stat|Manu Ginóbili en titres NBA|4
+player_stat|Cristiano Ronaldo en Ligues des champions gagnées|5
+player_stat|Lionel Messi en Ligues des champions gagnées|4
+player_stat|Andrés Iniesta en Ligues des champions gagnées|4
+player_stat|Xavi en Ligues des champions gagnées|4
+player_stat|Paolo Maldini en Ligues des champions gagnées|5
+player_stat|Clarence Seedorf en Ligues des champions gagnées|4
+player_stat|Gareth Bale en Ligues des champions gagnées|5
+player_stat|Sergio Ramos en Ligues des champions gagnées|4
+player_stat|Luka Modrić en Ligues des champions gagnées|5
+player_stat|Karim Benzema en Ligues des champions gagnées|5
+player_stat|Casemiro en Ligues des champions gagnées|5
+player_stat|Dani Carvajal en Ligues des champions gagnées|5
+player_stat|Paco Gento en Coupes d'Europe gagnées|6
+player_stat|Pelé en Coupes du Monde remportées|3
+player_stat|Diego Maradona en Coupes du Monde remportées|1
+player_stat|Kylian Mbappé en Coupes du Monde remportées|1
+player_stat|Andrés Iniesta en Coupes du Monde remportées|1
+player_stat|André Schürrle en Coupes du Monde remportées|1
+player_stat|Iker Casillas en Coupes du Monde remportées|1
+player_stat|Bastian Schweinsteiger en Coupes du Monde remportées|1
+player_stat|Xabi Alonso en Coupes du Monde remportées|1
+player_stat|Mesut Özil en Coupes du Monde remportées|1
+player_stat|Kaká en Ballons d'Or remportés|1
+player_stat|Roberto Baggio en Ballons d'Or remportés|1
+player_stat|Allan Simonsen en Ballons d'Or remportés|1
+player_stat|Luis Figo en Ballons d'Or remportés|1
+player_stat|Omar Sivori en Ballons d'Or remportés|1
+player_stat|Jean-Pierre Papin en Ballons d'Or remportés|1
+player_stat|Igor Belanov en Ballons d'Or remportés|1
+player_stat|Lev Yachine en Ballons d'Or remportés|1
+player_stat|Gerd Müller en Ballons d'Or remportés|1
+player_stat|Tom Brady en titres du Super Bowl|7
+player_stat|Joe Montana en titres du Super Bowl|4
+player_stat|Terry Bradshaw en titres du Super Bowl|4
+player_stat|Peyton Manning en titres du Super Bowl|2
+player_stat|Eli Manning en titres du Super Bowl|2
+player_stat|Patrick Mahomes en titres du Super Bowl|3
+player_stat|Drew Brees en titres du Super Bowl|1
+player_stat|Aaron Rodgers en titres du Super Bowl|1
+player_stat|Ben Roethlisberger en titres du Super Bowl|2
+player_stat|Russell Wilson en titres du Super Bowl|1
+player_stat|John Elway en titres du Super Bowl|2
+player_stat|Dan Marino en titres du Super Bowl|0
+player_stat|Brett Favre en titres du Super Bowl|1
+player_stat|Stephen Curry en titres MVP NBA|2
+player_stat|LeBron James en titres MVP NBA|4
+player_stat|Giannis Antetokounmpo en titres MVP NBA|2
+player_stat|Nikola Jokić en titres MVP NBA|2
+player_stat|Joel Embiid en titres MVP NBA|1
+player_stat|James Harden en titres MVP NBA|1
+player_stat|Russell Westbrook en titres MVP NBA|1
+player_stat|Derrick Rose en titres MVP NBA|1
+player_stat|Kevin Durant en titres MVP NBA|1
+player_stat|Allen Iverson en titres MVP NBA|1
+player_stat|Karl Malone en titres MVP NBA|2
+player_stat|Charles Barkley en titres MVP NBA|1
+player_stat|Hakeem Olajuwon en titres MVP NBA|1
+player_stat|Shaquille O'Neal en titres MVP NBA|1
+player_stat|Tim Duncan en titres MVP NBA|2
+player_stat|Dirk Nowitzki en titres MVP NBA|1
+player_stat|Kobe Bryant en titres MVP NBA|1
+player_stat|Steve Nash en titres MVP NBA|2
+player_stat|Cristiano Ronaldo en buts internationaux officiels|128
+player_stat|Lionel Messi en buts internationaux officiels|106
+player_stat|Ali Daei en buts internationaux officiels|109
+player_stat|Ferenc Puskás en buts internationaux officiels|84
+player_stat|Sunil Chhetri en buts internationaux officiels|93
+player_stat|Robert Lewandowski en buts internationaux officiels|82
+player_stat|Romelu Lukaku en buts internationaux officiels|83
+player_stat|Neymar en buts internationaux officiels|79
+player_stat|Zlatan Ibrahimović en buts internationaux officiels|62
+player_stat|Didier Drogba en buts internationaux officiels|65
+player_stat|Samuel Eto'o en buts internationaux officiels|56
+player_stat|David Villa en buts internationaux officiels|59
+player_stat|Miroslav Klose en buts internationaux officiels|71
+player_stat|Gerd Müller en buts internationaux officiels|68
+player_stat|Edinson Cavani en buts internationaux officiels|58
+player_stat|Luis Suárez en buts internationaux officiels|68
+player_stat|Kylian Mbappé en buts internationaux officiels|46
+player_stat|Erling Haaland en buts internationaux officiels|31
+player_stat|Harry Kane en buts internationaux officiels|62
+player_stat|Olivier Giroud en buts internationaux officiels|57
+# event_year
+event_year|la première Coupe du Monde de football|1930
+event_year|les premiers Jeux Olympiques modernes|1896
+event_year|les premiers Jeux Olympiques d'hiver|1924
+event_year|la première édition du Tour de France|1903
+event_year|la première édition du Giro d'Italia|1909
+event_year|la première édition de la Vuelta a España|1935
+event_year|la création de la NBA|1946
+event_year|la création de la Premier League|1992
+event_year|la création de la Ligue 1 professionnelle|1932
+event_year|la première finale de Coupe d'Europe des clubs champions|1956
+event_year|la création de l'Euro de football|1960
+event_year|la première Coupe d'Afrique des nations|1957
+event_year|la première Copa América|1916
+event_year|la création de la Copa Libertadores|1960
+event_year|l'instauration du classement ATP|1973
+event_year|la création de la WTA|1973
+event_year|le premier Masters de tennis|1970
+event_year|la première Ryder Cup|1927
+event_year|la première Presidents Cup|1994
+event_year|le premier Super Bowl|1967
+event_year|la première Coupe du Monde féminine de football|1991
+event_year|la première médaille d'or olympique de Bolt|2008
+event_year|le premier titre NBA des Toronto Raptors|2019
+event_year|le premier titre NBA des Dallas Mavericks|2011
+event_year|le premier titre NBA des Cleveland Cavaliers|2016
+event_year|la première Coupe du Monde de rugby|1987
+event_year|la première Ligue des nations de l'UEFA|2019
+event_year|la première médaille olympique d'Équipe Canada féminine de hockey|1998
+event_year|la première médaille d'or olympique de Michael Phelps|2004
+event_year|le premier marathon de Boston|1897
+event_year|le premier marathon de New York|1970
+event_year|la première victoire de Ferrari en F1|1951
+event_year|la première course des 24 Heures du Mans|1923
+event_year|la première édition de Roland-Garros moderne|1925
+event_year|la première édition de l'Open d'Australie|1905
+event_year|la première édition de l'US Open|1881
+event_year|la première édition de Wimbledon|1877
+event_year|la création du Ballon d'Or|1956
+event_year|la création du Trophée Yachine|2019
+event_year|la première Coupe du Monde des clubs de la FIFA|2000
+event_year|la première Coupe du Monde U20|1977
+event_year|le premier titre mondial féminin de handball français|2003
+event_year|le premier titre mondial masculin de handball français|1995
+event_year|la création de la FIBA|1932
+event_year|la première Coupe du Monde de basket FIBA|1950
+event_year|la première finale de la MLS|1996
+event_year|la création de la CAN féminine|1991
+event_year|la première médaille olympique d'Esther Vergeer|2000
+event_year|la première médaille olympique de Marta|2004
+event_year|la première victoire de Tiger Woods au Masters|1997
+event_year|la première médaille d'or olympique de la France en football|1984
+event_year|la première médaille d'or olympique du Kenya au marathon|1968
+event_year|la première médaille d'or olympique du Maroc sur 1500 m|1984
+event_year|la première victoire de l'Espagne à l'Euro|1964
+event_year|la première victoire de la Grèce à l'Euro|2004
+event_year|la première Coupe du Monde remportée par la France|1998
+event_year|la première CAN remportée par l'Algérie|1990
+event_year|la première Copa América remportée par le Chili|2015
+event_year|la première Ligue des champions remportée par Chelsea|2012

@@ -1,0 +1,151 @@
+# event_year
+event_year|le déclenchement de la Première Guerre mondiale|1914
+event_year|la signature de l'armistice de la Première Guerre mondiale|1918
+event_year|le krach de Wall Street|1929
+event_year|le début de la Seconde Guerre mondiale en Europe|1939
+event_year|la capitulation de l'Allemagne nazie|1945
+event_year|les bombardements atomiques d'Hiroshima|1945
+event_year|la fondation de l'ONU|1945
+event_year|la proclamation de la République populaire de Chine|1949
+event_year|la création de l'OTAN|1949
+event_year|la guerre de Corée|1950
+event_year|la mort de Staline|1953
+event_year|les accords de Genève sur l'Indochine|1954
+event_year|le début de la guerre d'Algérie|1954
+event_year|l'indépendance du Maroc|1956
+event_year|l'indépendance de la Tunisie|1956
+event_year|la crise de Suez|1956
+event_year|le traité de Rome instituant la CEE|1957
+event_year|le lancement de Spoutnik 1|1957
+event_year|la révolution cubaine|1959
+event_year|la construction du mur de Berlin|1961
+event_year|la crise des missiles de Cuba|1962
+event_year|l'assassinat de John F. Kennedy|1963
+event_year|la signature du Civil Rights Act aux États-Unis|1964
+event_year|la proclamation de l'indépendance du Botswana|1966
+event_year|la guerre des Six Jours|1967
+event_year|Mai 68 en France|1968
+event_year|l'assassinat de Martin Luther King|1968
+event_year|les premiers pas sur la Lune|1969
+event_year|le festival de Woodstock|1969
+event_year|l'Exposition universelle d'Osaka|1970
+event_year|la dissolution officielle de l'URSS|1991
+event_year|l'accord de Paris mettant fin à la guerre du Vietnam|1973
+event_year|le premier choc pétrolier|1973
+event_year|la révolution des Œillets au Portugal|1974
+event_year|l'élection de Valéry Giscard d'Estaing|1974
+event_year|la fin de la dictature franquiste en Espagne|1975
+event_year|les accords d'Helsinki|1975
+event_year|le coup d'État militaire en Argentine|1976
+event_year|l'élection de Jimmy Carter|1976
+event_year|l'accord de Camp David|1978
+event_year|la révolution islamique en Iran|1979
+event_year|l'invasion soviétique de l'Afghanistan|1979
+event_year|le second choc pétrolier|1979
+event_year|l'élection de Ronald Reagan|1980
+event_year|la loi Veil sur l'IVG en France|1975
+event_year|la catastrophe de Bhopal|1984
+event_year|la catastrophe de Tchernobyl|1986
+event_year|l'accident de la navette Challenger|1986
+event_year|l'accord de libre-échange canado-américain|1988
+event_year|la chute du mur de Berlin|1989
+event_year|la réunification allemande|1990
+event_year|la guerre du Golfe|1991
+event_year|le traité de Maastricht|1992
+event_year|l'attentat du World Trade Center|1993
+event_year|le génocide des Tutsis au Rwanda|1994
+event_year|l'accord de Dayton sur la Bosnie|1995
+event_year|l'élection de Jacques Chirac|1995
+event_year|la rétrocession de Hong Kong à la Chine|1997
+event_year|l'accord du Vendredi saint en Irlande du Nord|1998
+event_year|l'introduction de l'euro scriptural|1999
+event_year|la création de l'OMC|1995
+event_year|les attentats du 11 Septembre|2001
+event_year|l'invasion américaine de l'Irak|2003
+event_year|l'élargissement majeur de l'Union européenne|2004
+event_year|le référendum français sur le traité constitutionnel|2005
+event_year|la crise financière mondiale|2008
+event_year|l'élection de Barack Obama|2008
+event_year|la révolution tunisienne|2010
+event_year|la catastrophe de Fukushima|2011
+event_year|l'intervention en Libye|2011
+event_year|l'élection de François Hollande|2012
+event_year|l'élection du pape François|2013
+event_year|l'annexion de la Crimée|2014
+event_year|les attentats de Charlie Hebdo|2015
+event_year|l'accord de Paris sur le climat|2015
+event_year|le référendum sur le Brexit|2016
+event_year|l'élection d'Emmanuel Macron|2017
+event_year|le sommet historique Trump-Kim|2018
+event_year|l'incendie de Notre-Dame de Paris|2019
+event_year|la déclaration de pandémie de COVID-19|2020
+event_year|la mise en place du plan de relance NextGenerationEU|2020
+event_year|l'investiture de Joe Biden|2021
+event_year|l'invasion de l'Ukraine par la Russie|2022
+event_year|l'accord sur la protection de la haute mer|2023
+event_year|l'indépendance de l'Inde|1947
+event_year|l'indépendance du Pakistan|1947
+event_year|la création d'Israël|1948
+event_year|l'indépendance du Ghana|1957
+event_year|l'indépendance du Nigeria|1960
+event_year|l'indépendance de l'Algérie|1962
+event_year|la proclamation de la République du Rwanda|1962
+event_year|la guerre du Biafra|1967
+event_year|le coup d'État de Pinochet au Chili|1973
+event_year|l'accord de paix israélo-égyptien|1979
+event_year|le boycott des JO de Moscou|1980
+event_year|le boycott des JO de Los Angeles|1984
+event_year|la perestroïka lancée par Gorbatchev|1985
+event_year|la libération de Nelson Mandela|1990
+event_year|les premières élections multiraciales en Afrique du Sud|1994
+event_year|la crise asiatique|1997
+event_year|la faillite de Lehman Brothers|2008
+event_year|le référendum d'indépendance du Sud-Soudan|2011
+event_year|la chute de Mouammar Kadhafi|2011
+event_year|l'élection de Donald Trump|2016
+event_year|les accords d'Abraham|2020
+event_year|la crise des subprimes|2007
+event_year|l'entrée en vigueur du traité de Lisbonne|2009
+event_year|la révolution orange en Ukraine|2004
+event_year|la révolution des Roses en Géorgie|2003
+event_year|la révolution des Tulipes au Kirghizistan|2005
+event_year|la proclamation de l'État du Timor oriental|2002
+event_year|l'indépendance du Monténégro|2006
+event_year|l'indépendance du Kosovo|2008
+event_year|le tsunami dans l'océan Indien|2004
+event_year|le séisme de Haïti|2010
+event_year|l'épidémie de SRAS|2003
+event_year|l'épidémie d'Ebola en Afrique de l'Ouest|2014
+event_year|la signature de l'accord de Vienne sur le nucléaire iranien|2015
+event_year|la démission du pape Benoît XVI|2013
+event_year|le référendum d'indépendance écossais|2014
+event_year|la crise catalane|2017
+event_year|la signature du pacte mondial pour les réfugiés|2018
+event_year|l'ouverture des Jeux olympiques de Pékin|2008
+event_year|la Coupe du Monde de football en Afrique du Sud|2010
+event_year|l'introduction de l'euro fiduciaire|2002
+event_year|le sommet de la Terre de Rio|1992
+event_year|la conférence de Stockholm sur l'environnement|1972
+event_year|le rapport Brundtland|1987
+event_year|la déclaration d'indépendance du Bangladesh|1971
+event_year|la chute de Saïgon|1975
+event_year|le massacre de Tian'anmen|1989
+event_year|le scandale du Watergate|1972
+event_year|la démission de Richard Nixon|1974
+event_year|l'accord SALT I|1972
+event_year|l'accord START I|1991
+event_year|le lancement du premier SMS|1992
+event_year|la mise en service du tunnel sous la Manche|1994
+event_year|l'ouverture de la station spatiale internationale|1998
+event_year|le lancement de Facebook|2004
+event_year|le lancement de Twitter|2006
+event_year|la création de YouTube|2005
+event_year|le lancement d'Instagram|2010
+event_year|le scandale Cambridge Analytica|2018
+event_year|l'interdiction du DDT par les États-Unis|1972
+event_year|la signature de l'accord de libre-échange nord-américain|1992
+event_year|la crise des missiles nord-coréens|2017
+event_year|la proclamation de l'état d'urgence climatique par l'UE|2019
+event_year|la signature des accords d'Oslo|1993
+event_year|la légalisation du mariage pour tous en France|2013
+event_year|la COP26 de Glasgow|2021

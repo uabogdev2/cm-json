@@ -1,0 +1,364 @@
+# album
+album|Thriller|1982
+album|Bad|1987
+album|Dangerous|1991
+album|Off the Wall|1979
+album|Purple Rain|1984
+album|1999|1982
+album|Sign o' the Times|1987
+album|The Dark Side of the Moon|1973
+album|The Wall|1979
+album|Animals|1977
+album|Wish You Were Here|1975
+album|Abbey Road|1969
+album|Sgt. Pepper's Lonely Hearts Club Band|1967
+album|Revolver|1966
+album|Rubber Soul|1965
+album|Let It Be|1970
+album|Help!|1965
+album|Please Please Me|1963
+album|The Beatles|1968
+album|Imagine|1971
+album|Double Fantasy|1980
+album|Born to Run|1975
+album|Born in the U.S.A.|1984
+album|The River|1980
+album|Nebraska|1982
+album|OK Computer|1997
+album|Kid A|2000
+album|The Bends|1995
+album|In Rainbows|2007
+album|Ten|1991
+album|Vs.|1993
+album|Nevermind|1991
+album|In Utero|1993
+album|Bleach|1989
+album|Appetite for Destruction|1987
+album|Use Your Illusion I|1991
+album|Use Your Illusion II|1991
+album|Metallica|1991
+album|Master of Puppets|1986
+album|Ride the Lightning|1984
+album|...And Justice for All|1988
+album|Back in Black|1980
+album|Highway to Hell|1979
+album|Led Zeppelin IV|1971
+album|Led Zeppelin II|1969
+album|Led Zeppelin III|1970
+album|Houses of the Holy|1973
+album|Physical Graffiti|1975
+album|Rumours|1977
+album|Tusk|1979
+album|Tango in the Night|1987
+album|Hotel California|1976
+album|Desperado|1973
+album|The Joshua Tree|1987
+album|Achtung Baby|1991
+album|War|1983
+album|Boy|1980
+album|The Unforgettable Fire|1984
+album|Doolittle|1989
+album|Surfer Rosa|1988
+album|Hounds of Love|1985
+album|The Kick Inside|1978
+album|Bad Girls|1979
+album|Like a Virgin|1984
+album|Like a Prayer|1989
+album|True Blue|1986
+album|Ray of Light|1998
+album|Confessions on a Dance Floor|2005
+album|1989|2014
+album|Fearless|2008
+album|Red|2012
+album|Folklore|2020
+album|Evermore|2020
+album|Midnights|2022
+album|Speak Now|2010
+album|Lover|2019
+album|Reputation|2017
+album|Lemonade|2016
+album|BEYONCÉ|2013
+album|4|2011
+album|I Am... Sasha Fierce|2008
+album|Dangerously in Love|2003
+album|B'Day|2006
+album|21|2011
+album|25|2015
+album|19|2008
+album|30|2021
+album|Back to Black|2006
+album|Frank|2003
+album|AM|2013
+album|Favourite Worst Nightmare|2007
+album|Whatever People Say I Am, That's What I'm Not|2006
+album|Parachutes|2000
+album|A Rush of Blood to the Head|2002
+album|X&Y|2005
+album|Viva la Vida or Death and All His Friends|2008
+album|Mylo Xyloto|2011
+album|Ghost Stories|2014
+album|Music of the Spheres|2021
+album|Discovery|2001
+album|Random Access Memories|2013
+album|Homework|1997
+album|Human After All|2005
+album|Justice|2021
+album|Purpose|2015
+album|Believe|2012
+album|Journals|2013
+album|Future Nostalgia|2020
+album|Dua Lipa|2017
+album|24K Magic|2016
+album|Unorthodox Jukebox|2012
+album|Doo-Wops & Hooligans|2010
+album|After Hours|2020
+album|Starboy|2016
+album|Beauty Behind the Madness|2015
+album|Dawn FM|2022
+album|Views|2016
+album|Scorpion|2018
+album|Take Care|2011
+album|Nothing Was the Same|2013
+album|Certified Lover Boy|2021
+album|Her Loss|2022
+album|DAMN.|2017
+album|To Pimp a Butterfly|2015
+album|good kid, m.A.A.d city|2012
+album|Section.80|2011
+album|Mr. Morale & the Big Steppers|2022
+album|4:44|2017
+album|The Blueprint|2001
+album|The Black Album|2003
+album|Reasonable Doubt|1996
+album|Watch the Throne|2011
+album|My Beautiful Dark Twisted Fantasy|2010
+album|The College Dropout|2004
+album|Late Registration|2005
+album|Graduation|2007
+album|808s & Heartbreak|2008
+album|Yeezus|2013
+album|Donda|2021
+album|Astroworld|2018
+album|Rodeo|2015
+album|Birds in the Trap Sing McKnight|2016
+album|Channel Orange|2012
+album|Blonde|2016
+album|Ctrl|2017
+album|SOS|2022
+album|Anti|2016
+album|Loud|2010
+album|Rated R|2009
+album|Talk That Talk|2011
+album|Good Girl Gone Bad|2007
+album|Unapologetic|2012
+album|The Fame|2008
+album|Born This Way|2011
+album|Artpop|2013
+album|Chromatica|2020
+album|Joanne|2016
+album|FutureSex/LoveSounds|2006
+album|Justified|2002
+album|Man of the Woods|2018
+album|Random Access Memories (Deluxe)|2013
+album|Hybrid Theory|2000
+album|Meteora|2003
+album|Minutes to Midnight|2007
+album|A Thousand Suns|2010
+album|Living Things|2012
+album|AMERICANA|1998
+album|Smash|1994
+album|Enema of the State|1999
+album|Take Off Your Pants and Jacket|2001
+album|Californication|1999
+album|By the Way|2002
+album|Stadium Arcadium|2006
+album|Blood Sugar Sex Magik|1991
+album|Ten Summoner's Tales|1993
+album|Synchronicity|1983
+album|Ghost in the Machine|1981
+album|Out of Time|1991
+album|Automatic for the People|1992
+album|Monster|1994
+album|Siamese Dream|1993
+album|Mellon Collie and the Infinite Sadness|1995
+album|Adore|1998
+album|Gish|1991
+album|American Idiot|2004
+album|Dookie|1994
+album|Nimrod|1997
+album|Warning|2000
+album|21st Century Breakdown|2009
+album|Lateralus|2001
+album|Ænima|1996
+album|10,000 Days|2006
+album|Californication|1999
+album|Songs for the Deaf|2002
+album|Rated R (Queens of the Stone Age)|2000
+album|Is This It|2001
+album|Room on Fire|2003
+album|First Impressions of Earth|2006
+album|Hot Fuss|2004
+album|Sam's Town|2006
+album|Day & Age|2008
+album|Battle Born|2012
+album|AM (Deluxe)|2013
+album|The Suburbs|2010
+album|Neon Bible|2007
+album|Funeral|2004
+album|Reflektor|2013
+album|Everything Now|2017
+album|Drones|2015
+album|Absolution|2003
+album|Black Holes and Revelations|2006
+album|Origin of Symmetry|2001
+album|The Resistance|2009
+album|Simulation Theory|2018
+album|Will of the People|2022
+album|Hopes and Fears|2004
+album|Under the Iron Sea|2006
+album|Perfect Symmetry|2008
+album|Strangeland|2012
+album|Night Visions|2012
+album|Smoke + Mirrors|2015
+album|Evolve|2017
+album|Origins|2018
+album|Mercury - Act 1|2021
+album|Mercury - Act 2|2022
+album|Bat Out of Hell|1977
+album|Born to Die|2012
+album|Ultraviolence|2014
+album|Honeymoon|2015
+album|Lust for Life|2017
+album|Norman Fucking Rockwell!|2019
+album|Chemtrails over the Country Club|2021
+album|Blue Banisters|2021
+album|Did You Know That There's a Tunnel Under Ocean Blvd|2023
+album|Channel Orange (Deluxe)|2012
+album|MTV Unplugged in New York|1994
+album|Unplugged (Eric Clapton)|1992
+album|Layla and Other Assorted Love Songs|1970
+album|Back to Bedlam|2004
+album|Eye in the Sky|1982
+album|Brothers in Arms|1985
+album|Love over Gold|1982
+album|Making Movies|1980
+album|Los Angeles|1980
+album|Candy-O|1979
+album|Heartbeat City|1984
+album|Jagged Little Pill|1995
+album|Supernatural|1999
+album|The Miseducation of Lauryn Hill|1998
+album|Songs in the Key of Life|1976
+album|Talking Book|1972
+album|Innervisions|1973
+album|Music of My Mind|1972
+album|Baduizm|1997
+album|Mama's Gun|2000
+album|The Score|1996
+album|All Eyez on Me|1996
+album|Ready to Die|1994
+album|Life After Death|1997
+album|Illmatic|1994
+album|It Was Written|1996
+album|The Chronic|1992
+album|Doggystyle|1993
+album|The Marshall Mathers LP|2000
+album|The Slim Shady LP|1999
+album|The Eminem Show|2002
+album|Encore|2004
+album|Relapse|2009
+album|Recovery|2010
+album|Get Rich or Die Tryin'|2003
+album|The Documentary|2005
+album|Tha Carter III|2008
+album|Tha Carter IV|2011
+album|Tha Carter V|2018
+album|Speakerboxxx/The Love Below|2003
+album|Stankonia|2000
+album|Aquemini|1998
+album|ATLiens|1996
+album|Enter the Wu-Tang (36 Chambers)|1993
+album|Only Built 4 Cuban Linx...|1995
+album|Supreme Clientele|2000
+album|2001|1999
+album|Regulate... G Funk Era|1994
+album|The Low End Theory|1991
+album|Midnight Marauders|1993
+album|The Score (Legacy Edition)|1996
+album|Revolution|1990
+album|Faith|1987
+album|Songs About Jane|2002
+album|It Won't Be Soon Before Long|2007
+album|V|2014
+album|Blue|1971
+album|Court and Spark|1974
+album|Hejira|1976
+album|Tapestry|1971
+album|Bridge over Troubled Water|1970
+album|Graceland|1986
+album|So|1986
+album|Us|1992
+album|Secret World Live|1994
+album|Yield|1998
+album|No Code|1996
+album|Backspacer|2009
+album|Lightning Bolt|2013
+album|El Mal Querer|2018
+album|Motomami|2022
+album|Odelay|1996
+album|Sea Change|2002
+album|Morning Phase|2014
+album|Innerspeaker|2010
+album|Lonerism|2012
+album|Currents|2015
+album|The Slow Rush|2020
+album|Demon Days|2005
+album|Plastic Beach|2010
+album|Humanz|2017
+album|Song Machine, Season One|2020
+album|An Awesome Wave|2012
+album|This Is All Yours|2014
+album|Relaxer|2017
+album|AMOK|2013
+album|Violator|1990
+album|Music for the Masses|1987
+album|Songs of Faith and Devotion|1993
+album|Delta Machine|2013
+album|Spirit|2017
+album|El Camino|2011
+album|Brothers|2010
+album|Turn Blue|2014
+album|Thickfreakness|2003
+album|Rubber Factory|2004
+# award
+award|Beyoncé en Grammy Awards remportés|32
+award|Georg Solti en Grammy Awards remportés|31
+award|Quincy Jones en Grammy Awards remportés|28
+award|Alison Krauss en Grammy Awards remportés|27
+award|Chick Corea en Grammy Awards remportés|27
+award|Adele en Grammy Awards remportés|16
+award|Taylor Swift en Grammy Awards remportés|14
+award|Bruno Mars en Grammy Awards remportés|15
+award|Jay-Z en Grammy Awards remportés|24
+award|Kanye West en Grammy Awards remportés|24
+award|Kendrick Lamar en Grammy Awards remportés|17
+award|Eminem en Grammy Awards remportés|15
+award|Drake en Grammy Awards remportés|5
+award|Ed Sheeran en Grammy Awards remportés|4
+award|Billie Eilish en Grammy Awards remportés|7
+award|Olivia Rodrigo en Grammy Awards remportés|3
+award|Dua Lipa en Grammy Awards remportés|3
+award|Lady Gaga en Grammy Awards remportés|13
+award|Rihanna en Grammy Awards remportés|9
+award|Madonna en Grammy Awards remportés|7
+award|Céline Dion en Grammy Awards remportés|5
+award|Whitney Houston en Grammy Awards remportés|6
+award|Mariah Carey en Grammy Awards remportés|5
+award|U2 en Grammy Awards remportés|22
+award|Coldplay en Grammy Awards remportés|7
+award|Foo Fighters en Grammy Awards remportés|15
+award|Metallica en Grammy Awards remportés|9
+award|The Weeknd en Grammy Awards remportés|4
+award|Justin Bieber en Grammy Awards remportés|2
+award|Shakira en Grammy Awards remportés|3
+award|Rosalía en Grammy Awards remportés|2
