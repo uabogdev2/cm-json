@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Niveau 1",
+        "instruction": "Combien font 1+1+1 ?",
+        "code": "3",
+        "codeLength": 1,
+        "pointsReward": 5,
+        "isLocked": false,
+        "timeLimit": 20,
+        "additionalHints": [
+            "Additionnez les chiffres",
+            "toi aussi tchai"
+        ],
+        "hintCost": 100
+    }
+]
