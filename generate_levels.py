@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import random
+import unicodedata
 from pathlib import Path
 from typing import Callable, Dict, List, Tuple
 
@@ -95,6 +96,21 @@ def count_parity_hint(value: int) -> str:
     if value % 2 == 0:
         return "Indice 2 : Il s'agit d'un nombre pair."
     return "Indice 2 : Il s'agit d'un nombre impair."
+
+
+def to_ascii(text: str) -> str:
+    replacements = {
+        "×": "x",
+        "–": "-",
+        "—": "-",
+        "’": "'",
+        "«": '"',
+        "»": '"',
+    }
+    for src, dst in replacements.items():
+        text = text.replace(src, dst)
+    normalized = unicodedata.normalize("NFKD", text)
+    return normalized.encode("ascii", "ignore").decode("ascii")
 
 
 def format_stat_question(entity: str, stat: str) -> str:
@@ -373,6 +389,9 @@ def main() -> None:
         code_str = str(code_value)
         if not code_str.isdigit() or len(code_str) > 5:
             raise ValueError(f"Invalid code {code_str} at level {level_id}")
+
+        instruction = to_ascii(instruction)
+        hints = [to_ascii(hint) for hint in hints]
 
         level_entry = {
             "id": level_id,
