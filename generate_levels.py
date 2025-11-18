@@ -31,6 +31,35 @@ CATEGORY_FACT_LIMITS = {
     "actualité": 150,
 }
 
+YEAR_TEMPLATES = [
+    "Tape l'annee associee a {subject}.",
+    "Quel millesime correspond a {subject} ?",
+    "Entre l'annee exacte reliee a {subject}.",
+    "Valide le code en donnant l'annee de {subject}.",
+    "Quel est le nombre (en annee) pour {subject} ?"
+]
+
+STAT_TEMPLATES = [
+    "Combien de {stat} {entity} a remporte ?",
+    "Indique le total de {stat} obtenu par {entity}.",
+    "Quel est le nombre exact de {stat} pour {entity} ?",
+    "Tape le cumul de {stat} realise par {entity}.",
+    "Combien compte-t-on de {stat} pour {entity} ?"
+]
+
+DIGIT_WORDS = {
+    0: "zero",
+    1: "un",
+    2: "deux",
+    3: "trois",
+    4: "quatre",
+    5: "cinq",
+    6: "six",
+    7: "sept",
+    8: "huit",
+    9: "neuf",
+}
+
 
 def load_fact_file(path: Path) -> List[Tuple[str, str, int]]:
     entries: List[Tuple[str, str, int]] = []
@@ -113,19 +142,40 @@ def to_ascii(text: str) -> str:
     return normalized.encode("ascii", "ignore").decode("ascii")
 
 
-def format_stat_question(entity: str, stat: str) -> str:
+def build_year_instruction(subject: str, rng: random.Random) -> str:
+    return rng.choice(YEAR_TEMPLATES).format(subject=subject)
+
+
+def format_stat_question(entity: str, stat: str, rng: random.Random) -> str:
     stat_lower = stat.lower()
     if not stat:
-        return f"Combien de titres {entity} a remportés ?"
+        stat = "titres remportes"
+    template = rng.choice(STAT_TEMPLATES)
     if "but" in stat_lower:
-        return f"Combien de {stat} {entity} a inscrits ?"
-    if "médailles" in stat_lower:
-        return f"Combien de {stat} {entity} a remportées ?"
-    if "tours de france" in stat_lower:
-        return f"Combien de {stat} {entity} a gagnés ?"
-    if any(keyword in stat_lower for keyword in ["titre", "coup", "ligue", "champ", "ballon", "grand chelem", "tournoi"]):
-        return f"Combien de {stat} {entity} a remportés ?"
-    return f"Quel est le total de {stat} obtenu par {entity} ?"
+        stat = stat
+    if "médailles" in stat_lower or "medailles" in stat_lower:
+        stat = stat
+    if "but" in stat_lower:
+        template = rng.choice([
+            "Combien de {stat} {entity} a inscrits ?",
+            "Quel est le nombre total de {stat} marques par {entity} ?"
+        ])
+    elif "médailles" in stat_lower or "medailles" in stat_lower:
+        template = rng.choice([
+            "Combien de {stat} {entity} a remportees ?",
+            "Quel est le total de {stat} pour {entity} ?"
+        ])
+    elif "tours de france" in stat_lower:
+        template = rng.choice([
+            "Combien de {stat} {entity} a gagnes ?",
+            "Quel est le nombre de {stat} attribues a {entity} ?"
+        ])
+    elif any(keyword in stat_lower for keyword in ["titre", "coup", "ligue", "champ", "ballon", "grand chelem", "tournoi", "super bowl"]):
+        template = rng.choice([
+            "Combien de {stat} {entity} a remportes ?",
+            "Indique le total de {stat} detenus par {entity}."
+        ])
+    return template.format(entity=entity, stat=stat)
 
 
 def split_entity_stat(text: str) -> Tuple[str, str]:
@@ -135,49 +185,50 @@ def split_entity_stat(text: str) -> Tuple[str, str]:
     return text.strip(), ""
 
 
-def culture_fact(entry: Tuple[str, str, int]) -> Tuple[str, int, List[str]]:
+def culture_fact(entry: Tuple[str, str, int], rng: random.Random) -> Tuple[str, int, List[str]]:
     fact_type, subject, value = entry
     if fact_type == "foundation":
-        instruction = f"En quelle année {subject} a-t-elle été fondée ?"
+        label = f"la fondation de {subject}"
     elif fact_type == "landmark":
-        instruction = f"En quelle année {subject} a ouvert ses portes ?"
+        label = f"l'ouverture de {subject}"
     elif fact_type == "book":
-        instruction = f"En quelle année le livre {subject} a-t-il été publié pour la première fois ?"
+        label = f"la premiere publication du livre {subject}"
     else:
         raise ValueError(f"Unknown culture fact type: {fact_type}")
+    instruction = build_year_instruction(label, rng)
     hints = [decade_hint(value), year_last_digit_hint(value)]
     return instruction, value, hints
 
 
-def sport_fact(entry: Tuple[str, str, int]) -> Tuple[str, int, List[str]]:
+def sport_fact(entry: Tuple[str, str, int], rng: random.Random) -> Tuple[str, int, List[str]]:
     fact_type, subject, value = entry
     if fact_type == "event_year":
-        instruction = f"En quelle année {subject} ?"
+        instruction = build_year_instruction(subject, rng)
         hints = [decade_hint(value), year_last_digit_hint(value)]
         return instruction, value, hints
     entity, stat = split_entity_stat(subject)
-    instruction = format_stat_question(entity, stat)
+    instruction = format_stat_question(entity, stat, rng)
     hints = [count_range_hint(value), count_parity_hint(value)]
     return instruction, value, hints
 
 
-def music_fact(entry: Tuple[str, str, int]) -> Tuple[str, int, List[str]]:
+def music_fact(entry: Tuple[str, str, int], rng: random.Random) -> Tuple[str, int, List[str]]:
     fact_type, subject, value = entry
     if fact_type == "album":
-        instruction = f"En quelle année l'album « {subject} » est-il sorti ?"
+        instruction = build_year_instruction(f"la sortie de l'album {subject}", rng)
         hints = [decade_hint(value), year_last_digit_hint(value)]
         return instruction, value, hints
     if fact_type == "award":
         entity, stat = split_entity_stat(subject)
-        instruction = format_stat_question(entity, stat)
+        instruction = format_stat_question(entity, stat, rng)
         hints = [count_range_hint(value), count_parity_hint(value)]
         return instruction, value, hints
     raise ValueError(f"Unknown music fact type: {fact_type}")
 
 
-def news_fact(entry: Tuple[str, str, int]) -> Tuple[str, int, List[str]]:
+def news_fact(entry: Tuple[str, str, int], rng: random.Random) -> Tuple[str, int, List[str]]:
     _, subject, value = entry
-    instruction = f"En quelle année {subject} ?"
+    instruction = build_year_instruction(subject, rng)
     hints = [decade_hint(value), year_last_digit_hint(value)]
     return instruction, value, hints
 
@@ -228,114 +279,184 @@ def compute_hint_cost(level_id: int, difficulty: str) -> int:
     return 220 + mod * 20
 
 
-def math_question(level_id: int, difficulty: str, rng: random.Random) -> Tuple[str, int, List[str]]:
+def math_template_expression(difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
     if difficulty == "facile":
-        template = rng.choice(["sum3", "mix", "diff", "thousands"])
-        if template == "sum3":
-            a = rng.randint(12, 180)
-            b = rng.randint(25, 240)
-            c = rng.randint(8, 120)
-            result = a + b + c
-            instruction = f"Additionnez {a}, {b} et {c}."
-            hints = [f"Indice 1 : Additionnez d'abord {a} et {b}.",
-                     f"Indice 2 : Ajoutez ensuite {c} au total provisoire."]
-        elif template == "mix":
-            a = rng.randint(7, 24)
-            b = rng.randint(6, 15)
-            c = rng.randint(15, 75)
-            result = a * b + c
-            instruction = f"Calculez {a} × {b} puis ajoutez {c}."
-            hints = [f"Indice 1 : {a} × {b} vaut {a * b}.",
-                     f"Indice 2 : Ajoutez {c} pour obtenir le total final."]
-        elif template == "diff":
-            a = rng.randint(350, 950)
-            b = rng.randint(80, 320)
-            result = a - b
-            instruction = f"Soustrayez {b} à {a}."
-            hints = [f"Indice 1 : Commencez par {a} - {b//2} = {a - (b//2)}.",
-                     "Indice 2 : Terminez la soustraction pour obtenir le reste exact."]
-        else:
-            a = rng.randint(1200, 3200)
-            b = rng.randint(450, 1700)
-            result = a + b
-            instruction = f"Additionnez {a} et {b}."
-            hints = [f"Indice 1 : La somme dépasse {a + b - rng.randint(10, 30)}.",
-                     f"Indice 2 : Vérifiez les centaines, le résultat est {len(str(result))} chiffres."]
+        a = rng.randint(6, 20)
+        b = rng.randint(3, 12)
+        c = rng.randint(15, 70)
     elif difficulty == "moyen":
-        template = rng.choice(["prod_add", "double_mix", "sum4", "scaled_diff"])
-        if template == "prod_add":
-            a = rng.randint(28, 95)
-            b = rng.randint(120, 380)
-            c = rng.randint(150, 480)
-            result = a * b + c
-            instruction = f"Calculez {a} × {b} puis ajoutez {c}."
-            hints = [f"Indice 1 : {a} × {b} vaut {a * b}.",
-                     f"Indice 2 : Ajoutez {c} pour terminer."]
-        elif template == "double_mix":
-            a = rng.randint(22, 60)
-            b = rng.randint(18, 55)
-            c = rng.randint(40, 120)
-            d = rng.randint(15, 60)
-            result = a * b + c * d
-            instruction = f"Additionnez {a} × {b} et {c} × {d}."
-            hints = [f"Indice 1 : {a} × {b} = {a * b}.",
-                     f"Indice 2 : {c} × {d} = {c * d}. Additionnez-les."]
-        elif template == "sum4":
-            values = [rng.randint(120, 980) for _ in range(4)]
-            result = sum(values)
-            instruction = f"Additionnez {', '.join(str(v) for v in values[:-1])} et {values[-1]}."
-            hints = [f"Indice 1 : La somme des deux premiers termes vaut {values[0] + values[1]}.",
-                     f"Indice 2 : Ajoutez ensuite {values[2]} puis {values[3]}."]
-        else:
-            a = rng.randint(4000, 7800)
-            b = rng.randint(1200, 3900)
-            c = rng.randint(150, 980)
-            result = (a - b) + c
-            instruction = f"Soustrayez {b} à {a}, puis ajoutez {c}."
-            hints = [f"Indice 1 : {a} - {b} = {a - b}.",
-                     f"Indice 2 : Ajoutez {c} pour conclure."]
+        a = rng.randint(15, 50)
+        b = rng.randint(18, 70)
+        c = rng.randint(90, 260)
     else:
-        template = rng.choice(["big_mix", "double_prod", "staged", "combo"])
-        if template == "big_mix":
-            a = rng.randint(120, 260)
-            b = rng.randint(210, 360)
-            c = rng.randint(800, 2600)
-            result = a * b + c
-            instruction = f"Calculez {a} × {b} puis ajoutez {c}."
-            hints = [f"Indice 1 : La multiplication donne {a * b}.",
-                     f"Indice 2 : Ajoutez {c} pour dépasser {result - rng.randint(10, 50)}."]
-        elif template == "double_prod":
-            a = rng.randint(130, 220)
-            b = rng.randint(140, 280)
-            c = rng.randint(25, 70)
-            d = rng.randint(60, 130)
-            result = a * b - c * d
-            instruction = f"Calculez {a} × {b} puis soustrayez {c} × {d}."
-            hints = [f"Indice 1 : {a} × {b} = {a * b}.",
-                     f"Indice 2 : {c} × {d} = {c * d}. Soustrayez-les."]
-        elif template == "staged":
-            a = rng.randint(3200, 7900)
-            b = rng.randint(1800, 5400)
-            c = rng.randint(600, 1800)
-            result = a + b - c
-            instruction = f"Additionnez {a} et {b}, puis soustrayez {c}."
-            hints = [f"Indice 1 : {a} + {b} = {a + b}.",
-                     f"Indice 2 : Retirez {c} du total précédent."]
+        a = rng.randint(40, 110)
+        b = rng.randint(60, 180)
+        c = rng.randint(220, 750)
+    if rng.random() < 0.4:
+        d = rng.randint(10, max(20, c // 2))
+        result = a * b + c - d
+        instruction = f"Calcule : ({a} x {b}) + {c} - {d}."
+        hints = [
+            f"Indice 1 : {a} x {b} = {a * b}.",
+            f"Indice 2 : Ajoute {c}, puis retire {d}."
+        ]
+    else:
+        result = a * b + c
+        instruction = f"Calcule : ({a} x {b}) + {c}."
+        hints = [
+            f"Indice 1 : Commence par la multiplication ({a * b}).",
+            "Indice 2 : Ajoute ensuite le dernier terme."
+        ]
+    return instruction, str(result), hints
+
+
+def math_template_sequence(difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
+    mode = rng.choice(["up", "down", "double"])
+    length = 4
+    if mode == "up":
+        step = rng.randint(2, 9) if difficulty == "facile" else rng.randint(4, 18)
+        start = rng.randint(5, 40)
+        values = [start + i * step for i in range(length)]
+        answer = values[-1] + step
+        hint_detail = f"+{step}"
+    elif mode == "down":
+        step = rng.randint(2, 8) if difficulty == "facile" else rng.randint(6, 20)
+        min_start = step * (length + 2)
+        max_start = min_start + (40 if difficulty == "facile" else 120)
+        start = rng.randint(min_start, max_start)
+        values = [start - i * step for i in range(length)]
+        answer = values[-1] - step
+        hint_detail = f"-{step}"
+    else:
+        factor = 2 if difficulty != "difficile" else rng.choice([2, 3])
+        start = rng.randint(2, 6) * (10 if difficulty == "facile" else 20)
+        values = [start * (factor ** i) for i in range(length)]
+        answer = values[-1] * factor
+        hint_detail = f"x{factor}"
+    instruction = f"Complete la suite : {', '.join(str(v) for v in values)}, ?"
+    if mode == "double":
+        hints = [
+            f"Indice 1 : Chaque terme se multiplie par {hint_detail[1:]}.",
+            "Indice 2 : Applique ce facteur au dernier nombre cite."
+        ]
+    else:
+        hints = [
+            f"Indice 1 : La suite avance toujours de {hint_detail}.",
+            "Indice 2 : Utilise le meme ecart pour obtenir le prochain terme."
+        ]
+    return instruction, str(answer), hints
+
+
+def math_template_conversion(difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
+    options = [
+        ("heure", "minutes", 60, lambda v: v * 60, "Combien de minutes dans {value} heures ?"),
+        ("minute", "secondes", 60, lambda v: v * 60, "Combien de secondes dans {value} minutes ?"),
+        ("jour", "heures", 24, lambda v: v * 24, "Combien d'heures dans {value} jours ?"),
+        ("kilometre", "metres", 1000, lambda v: v * 1000, "Convertis {value} kilometres en metres."),
+        ("metre", "centimetres", 100, lambda v: v * 100, "Combien de centimetres dans {value} metres ?"),
+        ("semaine", "jours", 7, lambda v: v * 7, "Combien de jours dans {value} semaines ?"),
+    ]
+    unit_from, unit_to, factor, func, phrase = rng.choice(options)
+    if difficulty == "facile":
+        value = rng.randint(2, 8)
+    elif difficulty == "moyen":
+        value = rng.randint(5, 18)
+    else:
+        value = rng.randint(10, 30)
+    result = func(value)
+    instruction = phrase.format(value=value)
+    hints = [
+        f"Indice 1 : 1 {unit_from} = {factor} {unit_to}.",
+        f"Indice 2 : Multiplie {value} par {factor}."
+    ]
+    return instruction, str(result), hints
+
+
+def math_template_literal_digits(difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
+    length = 4 if difficulty == "facile" else rng.choice([4, 5])
+    digits = []
+    for i in range(length):
+        if i == 0 and rng.random() < 0.3:
+            digits.append(0)
         else:
-            values = [rng.randint(900, 9500) for _ in range(3)]
-            extras = [rng.randint(120, 850) for _ in range(2)]
-            result = values[0] + values[1] + values[2] - extras[0] + extras[1]
-            instruction = (
-                f"Additionnez {values[0]}, {values[1]} et {values[2]}, retranchez {extras[0]}, "
-                f"puis ajoutez {extras[1]}."
-            )
-            hints = [
-                f"Indice 1 : La somme initiale vaut {values[0] + values[1] + values[2]}.",
-                f"Indice 2 : Soustrayez {extras[0]} puis ajoutez {extras[1]}.",
-            ]
-    if not (0 <= result <= 99999):
-        raise ValueError(f"Result {result} out of bounds for level {level_id}")
-    return instruction, result, hints
+            digits.append(rng.randint(0, 9))
+    phrase = "-".join(DIGIT_WORDS[d] for d in digits)
+    code = "".join(str(d) for d in digits)
+    instruction = f"Transcris \"{phrase}\" en chiffres (sans espace)."
+    hints = [
+        "Indice 1 : Les mots sont deja ordonnes.",
+        "Indice 2 : Remplace chaque mot par son chiffre."
+    ]
+    return instruction, code, hints
+
+
+def math_template_balance(difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
+    if difficulty == "facile":
+        start = rng.randint(300, 900)
+        spend1 = rng.randint(30, 180)
+        spend2 = rng.randint(25, 140)
+        earn = rng.randint(20, 110)
+    elif difficulty == "moyen":
+        start = rng.randint(900, 2800)
+        spend1 = rng.randint(120, 480)
+        spend2 = rng.randint(110, 420)
+        earn = rng.randint(80, 360)
+    else:
+        start = rng.randint(2200, 5800)
+        spend1 = rng.randint(260, 1100)
+        spend2 = rng.randint(240, 880)
+        earn = rng.randint(150, 640)
+    result = start - spend1 - spend2 + earn
+    instruction = (
+        f"Je dispose de {start} euros. Je paye {spend1} euros puis {spend2} euros, "
+        f"et je recois ensuite {earn} euros. Quel est mon solde ?"
+    )
+    hints = [
+        f"Indice 1 : Apres les depenses, il reste {start - spend1 - spend2} euros.",
+        f"Indice 2 : Ajoute {earn} pour obtenir la somme finale."
+    ]
+    return instruction, str(result), hints
+
+
+def math_template_decomposition(difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
+    thousands = rng.randint(1, 9)
+    hundreds = rng.randint(0, 9)
+    tens = rng.randint(0, 9)
+    ones = rng.randint(0, 9)
+    parts = [f"({thousands} x 1000)"]
+    result = thousands * 1000
+    if hundreds or rng.random() < 0.4:
+        parts.append(f"({hundreds} x 100)")
+        result += hundreds * 100
+    if tens or rng.random() < 0.6:
+        parts.append(f"({tens} x 10)")
+        result += tens * 10
+    if ones or rng.random() < 0.6:
+        parts.append(str(ones))
+        result += ones
+    instruction = "Calcule : " + " + ".join(parts)
+    hints = [
+        "Indice 1 : Multiplie chaque bloc avant d'additionner.",
+        "Indice 2 : Assemble milliers, centaines, dizaines et unites."
+    ]
+    return instruction, str(result), hints
+
+
+def math_question(level_id: int, difficulty: str, rng: random.Random) -> Tuple[str, str, List[str]]:
+    templates = [
+        math_template_expression,
+        math_template_sequence,
+        math_template_conversion,
+        math_template_literal_digits,
+        math_template_balance,
+        math_template_decomposition,
+    ]
+    instruction, code_value, hints = rng.choice(templates)(difficulty, rng)
+    if not code_value.isdigit():
+        raise ValueError(f"Code {code_value} invalide")
+    if not (1 <= len(code_value) <= 5):
+        raise ValueError(f"Code {code_value} a une longueur hors limites")
+    return instruction, code_value, hints
 
 
 def main() -> None:
@@ -384,7 +505,7 @@ def main() -> None:
                 raise ValueError(f"Not enough facts for category {category}")
             fact = data_list[idx]
             fact_indices[category] += 1
-            instruction, code_value, hints = converters[category](fact)
+            instruction, code_value, hints = converters[category](fact, rng)
 
         code_str = str(code_value)
         if not code_str.isdigit() or len(code_str) > 5:
