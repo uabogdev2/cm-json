@@ -1,0 +1,320 @@
+# foundation
+foundation|la société Google|1998
+foundation|la société Apple|1976
+foundation|la société Microsoft|1975
+foundation|la société Amazon|1994
+foundation|la société Meta Platforms|2004
+foundation|la société Tesla|2003
+foundation|la société SpaceX|2002
+foundation|la société Netflix|1997
+foundation|la société Uber|2009
+foundation|la société Airbnb|2008
+foundation|la société Spotify|2006
+foundation|la société Nintendo|1889
+foundation|la société Sony|1946
+foundation|la société Samsung|1938
+foundation|la société Intel|1968
+foundation|la société IBM|1911
+foundation|la société Coca-Cola|1892
+foundation|la société PepsiCo|1965
+foundation|la société Nike|1964
+foundation|la société Adidas|1949
+foundation|la société Puma|1948
+foundation|la société Reebok|1958
+foundation|la société Ford Motor Company|1903
+foundation|la société General Motors|1908
+foundation|la société BMW|1916
+foundation|la société Mercedes-Benz|1926
+foundation|la société Volkswagen|1937
+foundation|la société Toyota|1937
+foundation|la société Honda|1948
+foundation|la société Hyundai Motor|1967
+foundation|la société Airbus|1970
+foundation|la société Boeing|1916
+foundation|la société Lockheed Martin|1995
+foundation|la société Oracle|1977
+foundation|la société SAP|1972
+foundation|la société Salesforce|1999
+foundation|la société Adobe|1982
+foundation|la société Dell|1984
+foundation|la société Hewlett-Packard|1939
+foundation|la société Xerox|1906
+foundation|la société Siemens|1847
+foundation|la société Philips|1891
+foundation|la société Panasonic|1918
+foundation|la société LG Corporation|1947
+foundation|la société Tencent|1998
+foundation|la société Alibaba|1999
+foundation|la société Baidu|2000
+foundation|la société ByteDance|2012
+foundation|la société Xiaomi|2010
+foundation|la société Huawei|1987
+foundation|la société Ericsson|1876
+foundation|la société Nokia|1865
+foundation|la société PayPal|1998
+foundation|la société eBay|1995
+foundation|la société LinkedIn|2002
+foundation|la société Twitter|2006
+foundation|la société Reddit|2005
+foundation|la société GitHub|2008
+foundation|la société Atlassian|2002
+foundation|la société Zoom Video Communications|2011
+foundation|la société TSMC|1987
+foundation|la société ARM Holdings|1990
+foundation|la société Epic Games|1991
+foundation|la société Valve Corporation|1996
+foundation|la société Blizzard Entertainment|1991
+foundation|la société Electronic Arts|1982
+foundation|la société Ubisoft|1986
+foundation|la société Capcom|1979
+foundation|la société Sega|1960
+foundation|la société Bandai|1950
+foundation|la société LEGO Group|1932
+foundation|la société Mattel|1945
+foundation|la société Hasbro|1923
+foundation|la société The Walt Disney Company|1923
+foundation|la société Pixar|1986
+foundation|la société DreamWorks Animation|1994
+foundation|la société Paramount Pictures|1912
+foundation|la société Warner Bros.|1923
+foundation|la société Universal Pictures|1912
+foundation|la société Columbia Pictures|1918
+foundation|la société Metro-Goldwyn-Mayer|1924
+foundation|la société BBC|1922
+foundation|la société CNN|1980
+foundation|la chaîne Al Jazeera|1996
+foundation|le journal The New York Times|1851
+foundation|le journal Le Monde|1944
+foundation|le journal Le Figaro|1826
+foundation|le journal The Guardian|1821
+foundation|le journal Financial Times|1888
+foundation|l'agence Reuters|1851
+foundation|l'agence Associated Press|1846
+foundation|l'agence Agence France-Presse|1835
+foundation|l'organisation UNESCO|1945
+foundation|l'organisation UNICEF|1946
+foundation|l'organisation OMS|1948
+foundation|l'organisation FMI|1944
+foundation|l'organisation Banque mondiale|1944
+foundation|l'Union européenne|1993
+foundation|le Conseil de l'Europe|1949
+foundation|l'OTAN|1949
+foundation|l'Union africaine|2002
+foundation|la Société des Nations|1920
+foundation|la Cour pénale internationale|2002
+foundation|le CERN|1954
+foundation|l'ESA|1975
+foundation|le CNES|1961
+foundation|la NASA|1958
+foundation|l'Agence spatiale canadienne|1989
+foundation|l'ISRO|1969
+foundation|la JAXA|2003
+foundation|la société Roscosmos|1992
+# landmark
+landmark|la tour Eiffel|1889
+landmark|la Statue de la Liberté|1886
+landmark|l'Opéra de Sydney|1973
+landmark|le musée Guggenheim de Bilbao|1997
+landmark|le Centre Pompidou|1977
+landmark|le musée du Louvre|1793
+landmark|le musée d'Orsay|1986
+landmark|le British Museum|1759
+landmark|le Metropolitan Museum of Art|1872
+landmark|le Museum of Modern Art de New York|1929
+landmark|le musée du Prado|1819
+landmark|la basilique de la Sagrada Família|1882
+landmark|le Taj Mahal|1653
+landmark|la cathédrale Notre-Dame de Paris|1345
+landmark|le palais de Versailles|1682
+landmark|le Colisée de Rome|80
+landmark|le Panthéon de Rome|125
+landmark|le Golden Gate Bridge|1937
+landmark|le pont du Bosphore|1973
+landmark|la tour CN de Toronto|1976
+landmark|la tour de Tokyo|1958
+landmark|le Burj Khalifa|2010
+landmark|le Burj Al Arab|1999
+landmark|le musée national du Qatar|2019
+landmark|le Louvre Abu Dhabi|2017
+landmark|le musée national de Chine|1959
+landmark|le palais du Parlement de Bucarest|1997
+landmark|la Gateway Arch de Saint-Louis|1965
+landmark|l'Arche de la Défense|1989
+landmark|la pyramide du Louvre|1989
+landmark|le palais Garnier|1875
+landmark|le Lincoln Memorial|1922
+landmark|le Capitole des États-Unis|1800
+landmark|le palais royal de Madrid|1764
+landmark|le château de Neuschwanstein|1886
+landmark|le parlement hongrois|1904
+landmark|le musée national d'Anthropologie de Mexico|1964
+landmark|le musée de l'Acropole d'Athènes|2009
+landmark|la Grande Bibliothèque de Québec|2005
+landmark|la bibliothèque nationale de Chine|1909
+landmark|la bibliothèque du Congrès|1800
+landmark|le palais de Topkapi|1465
+landmark|la mosquée bleue d'Istanbul|1616
+landmark|le temple d'Or d'Amritsar|1604
+landmark|le sanctuaire Meiji de Tokyo|1920
+landmark|le mémorial de Hiroshima|1955
+landmark|le mémorial du 11-Septembre|2011
+landmark|le One World Trade Center|2014
+landmark|le siège de l'ONU à New York|1952
+landmark|le siège du Parlement européen à Strasbourg|1999
+landmark|le siège de l'Union africaine à Addis-Abeba|2012
+landmark|la tour Taipei 101|2004
+landmark|la tour Shanghai|2015
+landmark|le siège de la Banque mondiale|1946
+landmark|le siège du FMI|1945
+landmark|le musée national de Tokyo|1872
+landmark|le Victoria and Albert Museum|1852
+landmark|le musée d'art islamique de Doha|2008
+landmark|le musée d'Histoire naturelle de Londres|1881
+landmark|le Royal Ontario Museum|1914
+landmark|le musée de l'Ermitage|1764
+landmark|le palais d'Hiver|1762
+landmark|le palais de Buckingham|1703
+landmark|la Maison Blanche|1800
+landmark|le mont Rushmore|1941
+landmark|le barrage Hoover|1936
+landmark|le barrage des Trois Gorges|2012
+landmark|le Kennedy Space Center Visitor Complex|1967
+landmark|le musée des sciences de Londres|1857
+landmark|le planétarium Adler|1930
+landmark|le parc national de Yellowstone|1872
+landmark|le parc national de Banff|1885
+landmark|le site de Machu Picchu|1911
+landmark|le site de Petra|1812
+landmark|le site d'Angkor|1860
+landmark|le temple Borobudur|825
+landmark|le site de Chichen Itza|600
+landmark|le temple du ciel de Pékin|1420
+landmark|le palais de Potala|1649
+landmark|le Kremlin de Moscou|1495
+landmark|la cathédrale Saint-Basile|1561
+landmark|le mémorial de Yad Vashem|1953
+landmark|le mémorial de la Shoah de Paris|2005
+landmark|le mémorial national de l'Holocauste à Washington|1993
+landmark|le mémorial du Mur de Berlin|1998
+landmark|le Mémorial de Caen|1988
+landmark|le mémorial de Verdun|1967
+landmark|le mémorial de Thiepval|1932
+landmark|le musée mémorial de la Paix d'Hiroshima|1955
+landmark|le mémorial national australien de Villers-Bretonneux|1938
+landmark|le mémorial de l'ANZAC de Sydney|1934
+landmark|le mémorial national du Vietnam à Washington|1982
+landmark|le mémorial national du Korea War Veterans|1995
+landmark|le musée du quai Branly|2006
+landmark|la fondation Louis-Vuitton|2014
+landmark|le musée des Confluences|2014
+landmark|le musée Soulages de Rodez|2014
+landmark|le Luma Arles|2021
+landmark|le Louvre-Lens|2012
+landmark|le musée MUCEM de Marseille|2013
+# book
+book|Le Petit Prince|1943
+book|1984|1949
+book|Le Meilleur des mondes|1932
+book|Les Misérables|1862
+book|Notre-Dame de Paris|1831
+book|Guerre et Paix|1869
+book|Anna Karénine|1877
+book|Crime et Châtiment|1866
+book|Moby Dick|1851
+book|Les Aventures de Tom Sawyer|1876
+book|Les Aventures de Huckleberry Finn|1884
+book|L'Appel de la forêt|1903
+book|La Communauté de l'Anneau|1954
+book|Le Hobbit|1937
+book|Harry Potter à l'école des sorciers|1997
+book|Harry Potter et la Chambre des secrets|1998
+book|Harry Potter et le Prisonnier d'Azkaban|1999
+book|Harry Potter et la Coupe de feu|2000
+book|Harry Potter et l'Ordre du Phénix|2003
+book|Harry Potter et le Prince de sang-mêlé|2005
+book|Harry Potter et les Reliques de la Mort|2007
+book|Le Nom de la rose|1980
+book|Le Pendule de Foucault|1988
+book|Da Vinci Code|2003
+book|Anges et Démons|2000
+book|Inferno|2013
+book|Le Lion, la Sorcière et l'Armoire magique|1950
+book|Le Magicien d'Oz|1900
+book|Alice au pays des merveilles|1865
+book|Le Vieil Homme et la Mer|1952
+book|Pour qui sonne le glas|1940
+book|L'Étranger|1942
+book|La Peste|1947
+book|Le Procès|1925
+book|La Métamorphose|1915
+book|Fahrenheit 451|1953
+book|Dune|1965
+book|Fondation|1951
+book|Neuromancien|1984
+book|Snow Crash|1992
+book|American Gods|2001
+book|Les Piliers de la Terre|1989
+book|Un monde sans fin|2007
+book|Sapiens|2011
+book|Homo Deus|2015
+book|L'Alchimiste|1988
+book|Le Parfum|1985
+book|Les Bienveillantes|2006
+book|La Vie mode d'emploi|1978
+book|Le Silence de la mer|1942
+book|Le Grand Meaulnes|1913
+book|L'Écume des jours|1947
+book|Belle du Seigneur|1968
+book|Le Deuxième Sexe|1949
+book|Le Capital au XXIe siècle|2013
+book|Le Rouge et le Noir|1830
+book|Madame Bovary|1857
+book|Germinal|1885
+book|Au Bonheur des Dames|1883
+book|La Condition humaine|1933
+book|L'Amant|1984
+book|La Promesse de l'aube|1960
+book|L'Élégance du hérisson|2006
+book|Ensemble, c'est tout|2004
+book|Les Rivières pourpres|1998
+book|Le Chardonneret|2013
+book|La Vérité sur l'affaire Harry Quebert|2012
+book|Les Hommes qui n'aimaient pas les femmes|2005
+book|La Fille qui rêvait d'un bidon d'essence et d'une allumette|2006
+book|La Reine dans le palais des courants d'air|2007
+book|Hunger Games|2008
+book|L'Embrasement|2009
+book|La Révolte|2010
+book|Divergente|2011
+book|Insurgée|2012
+book|Allegiant|2013
+book|Fascination|2005
+book|Tentation|2006
+book|Hésitation|2007
+book|Révélation|2008
+book|Cinquante nuances de Grey|2011
+book|Cinquante nuances plus sombres|2012
+book|Cinquante nuances plus claires|2012
+book|Ready Player One|2011
+book|Seul sur Mars|2011
+book|Les Chroniques de San Francisco|1978
+book|Dracula|1897
+book|Frankenstein|1818
+book|Les Trois Mousquetaires|1844
+book|Vingt Mille Lieues sous les mers|1870
+book|Voyage au centre de la Terre|1864
+book|De la Terre à la Lune|1865
+book|L'Île mystérieuse|1874
+book|Le Tour du monde en quatre-vingts jours|1873
+book|Une étude en rouge|1887
+book|Le Chien des Baskerville|1902
+book|Le Crime de l'Orient-Express|1934
+book|Dix petits nègres|1939
+book|Mort sur le Nil|1937
+book|Le Seigneur des Anneaux : Les Deux Tours|1954
+book|Le Seigneur des Anneaux : Le Retour du Roi|1955
+book|La Ferme des animaux|1945
+book|Sur la route|1957
+book|Ne tirez pas sur l'oiseau moqueur|1960
+book|Le Parrain|1969
+book|Shining|1977
